@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# Installer for claude-code-local-artifacts
+# Installer for local-artifacts-for-claude-code
 # - creates a venv with the `mcp` dependency
 # - registers the MCP server with Claude Code
 # - installs the /artifact reopen skill
@@ -12,7 +12,7 @@ REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 VENV_DIR="$REPO_DIR/.venv"
 SERVER_PY="$REPO_DIR/server.py"
 
-echo "==> claude-code-local-artifacts installer"
+echo "==> local-artifacts-for-claude-code installer"
 echo "    repo: $REPO_DIR"
 
 # 1. Find a Python 3.10+
